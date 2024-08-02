@@ -63,7 +63,7 @@
          </dependency>
              
              
-<!--
+      <!--
          <dependency>
              <groupId>org.apache.logging.log4j</groupId>
              <artifactId>log4j-core</artifactId>
@@ -149,7 +149,12 @@
         </dependency>
 
 
-    </dependencies>
+      <dependency>
+         <groupId>junit</groupId>
+         <artifactId>junit</artifactId>
+         <version>4.13.2</version>
+      </dependency>
+   </dependencies>
 
     <build>
         <sourceDirectory>src/main/java</sourceDirectory>
